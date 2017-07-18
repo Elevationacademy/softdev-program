@@ -13,11 +13,13 @@
   <script>
     const e = React.createElement
 
-    ReactDOM.render(e('div', {},
+    const divElementWithChildren = e('div', {},
       e('button', {}, '-'),
       e('span', {}, '0'),
       e('button', {}, '+'),
-    ), document.getElementById('root'))
+    )
+
+    ReactDOM.render(divElementWithChildren, document.getElementById('root'))
   </script>
 </body>
 </html>

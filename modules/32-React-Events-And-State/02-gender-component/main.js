@@ -34,7 +34,6 @@ function handleDecrementAge () {
 }
 
 function handleGenderChange (gender) {
-  console.log(gender)
   hillaryClinton.gender = gender
   render()
 }

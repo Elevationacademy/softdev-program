@@ -5,6 +5,13 @@ But data doesn't usually come from a static array deep in the code. It usually c
 I built one in `https://create-bootcamp-people-server.now.sh/people`. If you get it, it will bring back a set of
 people. We will use it to update the state in `PeopleComponentList`.
 
+To reset the data there use the Visual Studio Code Rest Client plugin to execute
+the following HTTP request:
+
+```http
+POST https://create-bootcamp-people-server.now.sh/reset
+```
+
 [PeopleListComponent.js](PeopleListComponent.js)
 ------------------------------------------------
 
